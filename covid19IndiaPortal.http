@@ -1,0 +1,12 @@
+POST http://localhost:9000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###
+
+GET http://localhost:9000/states/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzNDM1MTg0fQ.QIGztlRagny_5xPhx5Y8e9GEKyLHI41otfOdT5P_uOs
